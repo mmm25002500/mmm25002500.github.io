@@ -1,66 +1,16 @@
 ---
-title: about
+title: AboutMe
 layout: page
 ---
 
-此博客开通于2018/1/24，写些东西，记录生活，如此而已。
+大家好，我是夏特稀，我是一名高中生，喜歡在課餘時候研究程式語言相關的東西。
 
-我很喜欢Bob Dylan的一首歌，叫《forever young》。
-
-	May God bless and keep you always
-	May your wishes all come true
-	May you always do for others
-	And let others do for you
-	May you build a ladder to the stars
-	And climb on every rung
-	May you stay forever young
-	Forever young, forever young
-	May you stay forever young.
-	May you grow up to be righteous
-	May you grow up to be true
-	May you always know the truth
-	And see the lights surrounding you
-	May you always be courageous
-	Stand upright and be strong
-	May you stay forever young
-	Forever young, forever young
-	May you stay forever young.
-	May your hands always be busy
-	May your feet always be swift
-	May you have a strong foundation
-	When the winds of changes shift
-	May your heart always be joyful
-	And may your song always be sung
-	May you stay forever young
-	Forever young, forever young
-	May you stay forever young.
-
-我很喜欢《Rick And Morty》。
-
-我很喜欢茨威格和毛姆的书。
-
-我很喜欢玩游戏并且经常浸入其中。
-
-我认为人生毫无意义，以此对抗生活。
-
-
-我现在的理想是做出一个游戏AI(NPC)，它会与某些人产生感情并伴其一生。
-
-我认为人类的仪式感毫无用处但我经常会自己制造仪式感。
-
-我认为The One也许是不存在的，我们永远也找不到自己的The One。
-
-我永远喜欢守望先锋，这个世界需要更多英雄。
-
-我永远喜欢Splatoon。
-
-任天堂就是他妈的世界的主宰。
-
-短发女生是地球最可爱的生物。
-
-33是宇宙里最可爱的人。
-
-我喜欢33，33也喜欢我。
-
-
-
+## 介紹: 
+我自國小以來就對程式有興趣 在國小四年級嘗試安裝Linux來玩，走了不少苦坑路，但一切都是值得的，我也享受其。我從國小開始使用Linux 因為看到駭客覺得很帥 我國小很羨慕會做遊戲的人 於是我就上網尋找如何做遊戲 找著找著就找到一個可以使用預定好的版面來做程式 當然這還不符合我的胃口 我就開始上網找如何寫程式 到後來就會寫網頁了 於是我在國小五年級還是六年級的時候就寫了一個網頁罵別人被帶到訓導處 然後我就覺得好爽 我就開始走上了我的駭客之路～～
+## 經歷:
+目前研究Java有5餘年有了 Python則只有短短2–3年 另外我的主力從國小的Ubuntu 到現在使用了有4年 CentOS有1年了 Kali-Linux也有5年了 是使用雙系統的方式 現在的主力是Arch-Linux 確實Arch的pacman更新的確比apt來得快 且使用pacman 下載比較不會造成檔案過多 因為apt他是一直安裝 較容易造成硬碟很滿 之後可能會裝入BlackArch 因為我是從駭客思路與成長起家的麻。
+## 成長路程: 
+我自兩歲就有電腦了 但都沒在用 只是在玩摩爾莊園而已 對！我不玩賽爾號…那種畫面整個是藍色的我不喜歡 所以每天幾乎都是跟手機在一起 家人也不想我玩電腦 所以我國小就是手機陪伴著我 寫程式也用手機 那你問我我是如何創立網站的 因為當時有個東西叫做 Blogger 部落格 我就利用部落格來創立網站 而標題就寫 XXX很XX 所以我並不會瞧不起手機用戶 但我會瞧不起說手機比電腦優秀的人 手機能做到的 電腦大部分都做得到 而電腦能作到的 手機卻不行 但隨著時代的進步 相信以後可以的 拉回主題來 我到了國一的時候 就嘗試使用Termux攻擊網站 我也成了全校電腦能力最強的人 也因為到了國一 我也開始使用電腦了 那時候真的打字超快 為何呢 因為手機鍵盤跟電腦一樣 所以我打字都很快 一分鐘可以到80字 從此我就成為了全校電腦最強的人 到了國二 我已經會抓學校網站漏洞了 也會使用注入攻擊學校網站 從過二開始也漸漸培養我的資訊安全 我在國二時 幾乎每天都用匿名聊天 在使用termux去得到對方的FB帳密 或是Shell 所以我在國二也培養了社交工程 也透過一堆Line帳號(那時候只要有FB就可以辦了) 創立群組 然後10個人有9個帳號是我的 我就這樣每天跟自己吵架 也因為這樣 我也培養了心理學 可以用那九隻帳號去影響對方 到了國三正值鳳凰花開時期 也因為會考 還有第九節課 我也縮短了時間 但也沒縮短多少 當時 已經磨練了 Kali-linux遇到錯誤就是重灌的經驗 但一次次被我解決了 當時最怕的是dpkg子進程錯誤 Google都找遍了都沒有找到 我從小到那時候 全部靠自己 沒有旁人幫助 也因為這樣 「爬文」與排除問題 成為了我的日常！！
+## 創立團隊: 
+我的團隊目前已經至少有5年了 從一開始只有一兩個人 到目前已經有上百個人加入我們了 包括Line群組 Telegram群組 以及Facebook上志同道合與擁有共同目標的好朋友們。在2015的時候創立了團隊 當時只有2個人 為了一起學習電腦這方面 我開始拍攝YouTube 雖然當時都是廢片 但我從小六開始 轉為技術片了 從After Effect特效 到APP介紹 到Google Play開發者應用上傳 目前為止已經有1013訂閱 但因為2020/2月初我因為在YouTube直播上播放版權音樂遭到停用 我立馬通知YouTube解鎖 然而等不到下文 而我又開立了新頻道 短短6個月得來200訂閱 我開始轉為駭客教學 更技術的影片 幸虧有團隊幫忙 我才能走得這麼快 雖然團內都是一群小廢廢 真正跟我一起研究也只不過那幾個人而已 但我已經很開心了～ 未來的你們呢 也要跟我一起研究呦～～～
+## 關於我: [Facebook](https://www.facebook.com/shanling.team/) [YouTube](https://www.youtube.com/%E5%A4%8F%E7%89%B9%E7%A8%80) [官網](http://official.tershi.ml/) [團隊官網](http://www.tershi.ml/) [夏特稀郵件伺服器](https://mail.tershi.ml/mail) [GitHub](http://github.com/mmm25002500)
