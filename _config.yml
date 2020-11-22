@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Couragelogos
+title: 夏特稀部落格
 subtitle:
-description: wublub dubda
-author: Logos
+description: 我是一名高職生也是開發者
+author: 夏特稀
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: zh-Hans
+language: zh-tw
 date_format: '%Y-%m-%d'
 
 # URL
