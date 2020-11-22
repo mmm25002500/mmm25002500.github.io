@@ -15,7 +15,7 @@ menu:
   search: 檢索
   schedule: 日程表
   sitemap: 站點地圖
-  commonweal: 公益404
+  commonweal: 404錯誤
 
 sidebar:
   overview: 本站概覽
@@ -45,8 +45,8 @@ page:
   tags: 標籤
 
 footer:
-  powered: "由 %s 強力驅動"
-  theme: 主題
+  powered: "%s 所有"
+  theme: 官網
 
 counter:
   tag_cloud:
