@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on Example Site</title>
-        <link>https://example.com/categories/</link>
-        <description>Recent content in Categories on Example Site</description>
+        <title>Categories on 夏特稀部落格</title>
+        <link>https://blog.tershi.com/categories/</link>
+        <description>Recent content in Categories on 夏特稀部落格</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>syntax</title>
-        <link>https://example.com/categories/syntax/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <language>zh-tw</language>
+        <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Java</title>
+        <link>https://blog.tershi.com/categories/java/</link>
+        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/syntax/</guid>
+        <guid>https://blog.tershi.com/categories/java/</guid>
         <description></description>
         </item>
         <item>
-        <title>themes</title>
-        <link>https://example.com/categories/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>Python</title>
+        <link>https://blog.tershi.com/categories/python/</link>
+        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/themes/</guid>
+        <guid>https://blog.tershi.com/categories/python/</guid>
         <description></description>
         </item>
         <item>
-        <title>Test</title>
-        <link>https://example.com/categories/test/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        <title>测试</title>
+        <link>https://blog.tershi.com/categories/%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/categories/test/</guid>
-        <description>&lt;img src="https://example.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
-        </item>
-        <item>
-        <title>Test with whitespaces</title>
-        <link>https://example.com/categories/test-with-whitespaces/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/test-with-whitespaces/</guid>
+        <guid>https://blog.tershi.com/categories/%E6%B5%8B%E8%AF%95/</guid>
         <description></description>
         </item>
         
