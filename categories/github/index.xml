@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>夏特稀部落格</title>
-        <link>https://blog.tershi.com/</link>
-        <description>Recent content on 夏特稀部落格</description>
+        <title>Github on 夏特稀部落格</title>
+        <link>https://blog.tershi.com/categories/github/</link>
+        <description>Recent content in Github on 夏特稀部落格</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
-        <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/categories/github/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>五分鐘 Hugo &#43; Github 製作部落格靜態網頁教學</title>
         <link>https://blog.tershi.com/p/hugoinstallation/</link>
         <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
@@ -156,104 +156,6 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
-        </item>
-        <item>
-        <title>封存</title>
-        <link>https://blog.tershi.com/archives/</link>
-        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>第一篇貼文</title>
-        <link>https://blog.tershi.com/p/thefirstpost/</link>
-        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/p/thefirstpost/</guid>
-        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;沒錯！我是夏特稀，我在今日創立了部落格，要來將我的生活&amp;amp;人生經歷用一個又一個生動的字敘寫下來，也記錄著我的學習狀態。平常的課堂筆記和課後學習&amp;amp;自主學習的成果和過程都會記錄在這。&lt;/p&gt;
-&lt;h2 id=&#34;創立部落格初衷&#34;&gt;創立部落格初衷&lt;/h2&gt;
-&lt;p&gt;我發現，要學一項技術，甚至是一門學科，短期記憶是可以透過學習累積的，但要轉為長期記憶，需要透過一而再再而三地不斷複習，因此我建立了一個部落格網站，用來記錄著我的學習狀態和學習筆記，寫筆記不僅能讓自己複習，也能讓一個新手快速了解技術，達到知識傳播的目的。&lt;/p&gt;
-&lt;p&gt;這裡不僅記錄著我的生活，也記錄著我人生中的每一段時刻和點點滴滴，是人都會老，人老就會遺忘記憶，我們需要將人生點滴和重要時刻記錄下來，以供自己和後世回憶和參考。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;思念是最暖的憂傷像一雙翅膀&lt;br&gt;
-讓我停不了飛不遠在過往遊蕩&lt;br&gt;
-不告而別的你 就算為了我著想&lt;br&gt;
-這麼沉痛的呵護 我怎麼能翱翔&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=3aypp_YlBzI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;最暖的憂傷 - 田馥甄&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>關於我</title>
-        <link>https://blog.tershi.com/%E9%97%9C%E6%96%BC%E6%88%91/</link>
-        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/%E9%97%9C%E6%96%BC%E6%88%91/</guid>
-        <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yuin/goldmark&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/alecthomas/chroma&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/muesli/smartcrop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/cobra&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/viper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;
-&lt;p&gt;Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p&gt;
-&lt;p&gt;Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p&gt;
-&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Github</title>
-        <link>https://blog.tershi.com/categories/test/github/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/categories/test/github/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Github" /&gt;</description>
-        </item>
-        <item>
-        <title>Java</title>
-        <link>https://blog.tershi.com/categories/test/java/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/categories/test/java/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Java" /&gt;</description>
-        </item>
-        <item>
-        <title>Python</title>
-        <link>https://blog.tershi.com/categories/test/python/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/categories/test/python/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Python" /&gt;</description>
-        </item>
-        <item>
-        <title>連結</title>
-        <link>https://blog.tershi.com/%E9%80%A3%E7%B5%90/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/%E9%80%A3%E7%B5%90/</guid>
-        <description>&lt;p&gt;我的一些連結和好朋友們。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>搜尋</title>
-        <link>https://blog.tershi.com/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/search/</guid>
-        <description></description>
         </item>
         
     </channel>

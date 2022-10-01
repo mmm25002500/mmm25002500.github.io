@@ -15,22 +15,8 @@
                 href="https://blog.tershi.com/"
                 />
   </url><url>
-    <loc>https://blog.tershi.com/page/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tershi.com/post/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tershi.com/archives/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tershi.com/p/thefirstpost/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tershi.com/%E9%97%9C%E6%96%BC%E6%88%91/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.tershi.com/categories/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,6 +29,30 @@
                 />
   </url><url>
     <loc>https://blog.tershi.com/categories/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/categories/github/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/page/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/post/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/p/hugoinstallation/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/archives/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/p/thefirstpost/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/%E9%97%9C%E6%96%BC%E6%88%91/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/categories/test/github/</loc>
   </url><url>
     <loc>https://blog.tershi.com/categories/test/java/</loc>
   </url><url>

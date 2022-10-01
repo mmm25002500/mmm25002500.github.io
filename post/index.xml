@@ -7,6 +7,157 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>五分鐘 Hugo &#43; Github 製作部落格靜態網頁教學</title>
+        <link>https://blog.tershi.com/p/hugoinstallation/</link>
+        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/p/hugoinstallation/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;相信有在使用 Github 的朋友們，應該知道 Github Page，通過這個東西，我們可以在上面運行我們的靜態網頁，做出自己想要的個人網站或是部落格，但因為是靜態網頁，所以不支援所有動態操作，例如：登入、PHP處理&amp;hellip;。因此在本篇，我將為大家介紹 Hugo 這酷東西。&lt;/p&gt;
+&lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
+&lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; 如果你是 Windows 使用者，請去 &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Repo&lt;/a&gt; 下載 Windows 版本的Hugo，並且解壓至 &lt;code&gt;C:\\hugo\bin&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; 請到 設定/環境變數 中，選擇「系統」，接下來到選擇「Path」，並將&lt;code&gt;C:\\hugo\bin&lt;/code&gt;輸入進去。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3.&lt;/strong&gt; 打開你的 命令提示字元(cmd) 輸入 &lt;code&gt;hugo --version&lt;/code&gt;，並且有出現版本訊息，代表安裝成功。&lt;/p&gt;
+&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
+&lt;p&gt;根據你的發行版而定，本篇以Ubuntu作為教學。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; 請輸入 &lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt install hugo&lt;/code&gt;(此時的 &lt;code&gt;hugo&lt;/code&gt;要因你的套件名而定)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; 請輸入 &lt;code&gt;hugo --version&lt;/code&gt;，並且有出現版本訊息，代表安裝成功。&lt;/p&gt;
+&lt;h3 id=&#34;macos&#34;&gt;MacOS&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; 請打開你的終端機&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; 請輸入 &lt;code&gt;brew install hugo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3.&lt;/strong&gt; 請輸入 &lt;code&gt;hugo --version&lt;/code&gt;，並且有出現版本訊息，代表安裝成功。&lt;/p&gt;
+&lt;h2 id=&#34;建立-github-page-repository&#34;&gt;建立 Github Page Repository&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; 首先到你的 Github 主頁，並且在右上角找到「+」，點選「New Repository」&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-25.png&#34;
+	width=&#34;245&#34;
+	height=&#34;223&#34;
+	srcset=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-25_hud39f4161933ed8022ff225ee2d653086_9880_480x0_resize_box_3.png 480w, https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-25_hud39f4161933ed8022ff225ee2d653086_9880_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;圖一　建立Repository&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;109&#34;
+		data-flex-basis=&#34;263px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; Repository Name 填寫「使用者名稱.github.io」&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-28.png&#34;
+	width=&#34;635&#34;
+	height=&#34;298&#34;
+	srcset=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-28_hudb90f5a52d050ca47348416f9d4e5217_28738_480x0_resize_box_3.png 480w, https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-28_hudb90f5a52d050ca47348416f9d4e5217_28738_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;圖二　填寫Repositry 資訊&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;511px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;匯入主題&#34;&gt;匯入主題&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; 先進入此&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;網頁&lt;/a&gt;，並選擇你喜歡的主題，按下Download進行下載。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; 將下載好的(以hugo-theme-stack.rar為例)壓縮檔解壓下來，將 exampleSite 移動至桌面。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3.&lt;/strong&gt; 在 exampleSite 建立一個資料夾為「themes」，並且將剛解壓好的檔案全部丟入裡面。&lt;/p&gt;
+&lt;h2 id=&#34;開始設定&#34;&gt;開始設定&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; 打開你的終端機，進去 exampleSite。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; 輸入 &lt;code&gt;hugo server&lt;/code&gt;，此時會建立一個內網網站，將網址放入網頁瀏覽器中，即可以看到畫面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-35.png&#34;
+	width=&#34;1331&#34;
+	height=&#34;523&#34;
+	srcset=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-35_hu4325e2d66efe065be0f7ce80eafc9d5f_465594_480x0_resize_box_3.png 480w, https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-35_hu4325e2d66efe065be0f7ce80eafc9d5f_465594_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;圖三　執行 hugo 終端機畫面&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;254&#34;
+		data-flex-basis=&#34;610px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3.&lt;/strong&gt; 通過 vscode或是其他檔案編輯器編輯&lt;code&gt;config.ymal&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;回推上傳至-github&#34;&gt;回推上傳至 Github&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; 編輯好後，在終端機輸入 &lt;code&gt;hugo&lt;/code&gt;，此時會建立所需要的檔案至 &lt;code&gt;public/&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; 將剛剛建立好的 Repository Clone下來: &lt;code&gt;git clone https://github.com/使用者名稱/使用者名稱.github.io&lt;/code&gt;，此時 git 會建立一個資料夾。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3.&lt;/strong&gt; 將 &lt;code&gt;public/&lt;/code&gt;裡面所有資料夾和檔案複製到 Clone下來的 &lt;code&gt;使用者名稱.github.io&lt;/code&gt;資料夾。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4.&lt;/strong&gt; 輸入 &lt;code&gt;git add . &amp;amp;&amp;amp; git commit -m &amp;quot;第一次上傳&amp;quot; &amp;amp;&amp;amp; git push&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;網頁上線&#34;&gt;網頁上線&lt;/h2&gt;
+&lt;p&gt;此時 Github Action會自動啟動，將你的Github Page 自動上線，網址會是: &lt;code&gt;https://使用者名稱.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-41.png&#34;
+	width=&#34;1896&#34;
+	height=&#34;937&#34;
+	srcset=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-41_huea9b933b7dbdb9f3c726fd2a6b0a100d_108261_480x0_resize_box_3.png 480w, https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-41_huea9b933b7dbdb9f3c726fd2a6b0a100d_108261_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;圖四　Github Repository畫面&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;202&#34;
+		data-flex-basis=&#34;485px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-42.png&#34;
+	width=&#34;1559&#34;
+	height=&#34;930&#34;
+	srcset=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-42_huc0ce988b50cbbecef0530f7d730d5873_99814_480x0_resize_box_3.png 480w, https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-42_huc0ce988b50cbbecef0530f7d730d5873_99814_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;圖五　網站上線畫面&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;402px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;綁定網域&#34;&gt;綁定網域&lt;/h2&gt;
+&lt;h3 id=&#34;網域設定&#34;&gt;網域設定&lt;/h3&gt;
+&lt;p&gt;在你的網域提供商，建立一個CNAME紀錄，指向&lt;code&gt;使用者名稱.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-45.png&#34;
+	width=&#34;1035&#34;
+	height=&#34;873&#34;
+	srcset=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-45_hu149b8924ff757266b107b99d3827e2ca_91281_480x0_resize_box_3.png 480w, https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-45_hu149b8924ff757266b107b99d3827e2ca_91281_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;圖六　DNS紀錄設定&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;284px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;以CloudFlare為例，將類型設定為 CNAME，名稱為你需要的網域子域名，目標為Github Page 網址，開不開Proxy其實沒差，IP是Github，不會被駭客發現其他IP。&lt;/p&gt;
+&lt;h3 id=&#34;設定-github-page-domain&#34;&gt;設定 Github Page Domain&lt;/h3&gt;
+&lt;p&gt;在 Github Repo 建立一個新的檔案叫做&lt;code&gt;CNAME&lt;/code&gt;，並將你的網域放入裡面&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-48.png&#34;
+	width=&#34;1226&#34;
+	height=&#34;344&#34;
+	srcset=&#34;https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-48_hu1b119311e454c7f35a3e1e530ddd3d83_24434_480x0_resize_box_3.png 480w, https://blog.tershi.com/p/hugoinstallation/2022-10-01_21-48_hu1b119311e454c7f35a3e1e530ddd3d83_24434_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;圖七　Github Page網域設定&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;356&#34;
+		data-flex-basis=&#34;855px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;結尾&#34;&gt;結尾&lt;/h2&gt;
+&lt;p&gt;希望大家看到這裡，透過手把手一步步教學，可以建立出一個 Hugo 靜態網頁。通過 Github Page，可以建立一個個人網頁或是部落格，Github Page的應用很廣，今天我只在 Hugo 講解。因為我也想要來寫寫看部落格，就順手搭建了 Hugo，建立Hugo網頁並沒有想像中的這麼難，反而五分鐘以內就可以搭建完成，剩下的都只是設定和文章內容撰寫而已。如果有任何問題可以來信問我，或是通過我的通訊軟體聯絡我，也可以在下方留言詢問喔，前提是我要看到。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
         <title>第一篇貼文</title>
         <link>https://blog.tershi.com/p/thefirstpost/</link>
         <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
