@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-tw" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='在 Github 上建立靜態部落格網站，只需要五分鐘而已喔！'><title>五分鐘 Hugo &#43; Github 製作部落格靜態網頁教學</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='使用 Disqus 在你的網站加上酷酷的留言板'><title>Disqus &#43; Hugo 讓你的網頁/部落格加上留言板功能</title>
 
-<link rel='canonical' href='https://blog.tershi.com/p/hugoinstallation/'>
+<link rel='canonical' href='https://blog.tershi.com/p/disqusinstallation/'>
 
-<link rel="stylesheet" href="/scss/style.min.ac77dcf8b111b51da39a92990f431923f210f3876d85798a2125667f96dc33a4.css"><meta property='og:title' content='五分鐘 Hugo &#43; Github 製作部落格靜態網頁教學'>
-<meta property='og:description' content='在 Github 上建立靜態部落格網站，只需要五分鐘而已喔！'>
-<meta property='og:url' content='https://blog.tershi.com/p/hugoinstallation/'>
+<link rel="stylesheet" href="/scss/style.min.ac77dcf8b111b51da39a92990f431923f210f3876d85798a2125667f96dc33a4.css"><meta property='og:title' content='Disqus &#43; Hugo 讓你的網頁/部落格加上留言板功能'>
+<meta property='og:description' content='使用 Disqus 在你的網站加上酷酷的留言板'>
+<meta property='og:url' content='https://blog.tershi.com/p/disqusinstallation/'>
 <meta property='og:site_name' content='夏特稀部落格'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-10-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-10-01T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="五分鐘 Hugo &#43; Github 製作部落格靜態網頁教學">
-<meta name="twitter:description" content="在 Github 上建立靜態部落格網站，只需要五分鐘而已喔！">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-10-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-10-02T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Disqus &#43; Hugo 讓你的網頁/部落格加上留言板功能">
+<meta name="twitter:description" content="使用 Disqus 在你的網站加上酷酷的留言板">
     <link rel="shortcut icon" href="https://tershi.com/favicon.ico" />
 
     </head>
@@ -296,12 +296,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/hugoinstallation/">五分鐘 Hugo &#43; Github 製作部落格靜態網頁教學</a>
+            <a href="/p/disqusinstallation/">Disqus &#43; Hugo 讓你的網頁/部落格加上留言板功能</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            在 Github 上建立靜態部落格網站，只需要五分鐘而已喔！
+            使用 Disqus 在你的網站加上酷酷的留言板
         </h3>
         
     </div>
@@ -319,7 +319,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Oct 01, 2022</time>
+                <time class="article-time--published">Oct 02, 2022</time>
             </div>
         
 
@@ -349,148 +349,198 @@
     
     
     <h2 id="前言">前言</h2>
-<p>相信有在使用 Github 的朋友們，應該知道 Github Page，通過這個東西，我們可以在上面運行我們的靜態網頁，做出自己想要的個人網站或是部落格，但因為是靜態網頁，所以不支援所有動態操作，例如：登入、PHP處理&hellip;。因此在本篇，我將為大家介紹 Hugo 這酷東西。</p>
-<h2 id="安裝">安裝</h2>
-<h3 id="windows">Windows</h3>
-<p><strong>Step 1.</strong> 如果你是 Windows 使用者，請去 <a class="link" href="https://github.com/gohugoio/hugo/releases"  target="_blank" rel="noopener"
-    >Hugo Repo</a> 下載 Windows 版本的Hugo，並且解壓至 <code>C:\\hugo\bin</code>。</p>
-<p><strong>Step 2.</strong> 請到 設定/環境變數 中，選擇「系統」，接下來到選擇「Path」，並將<code>C:\\hugo\bin</code>輸入進去。</p>
-<p><strong>Step 3.</strong> 打開你的 命令提示字元(cmd) 輸入 <code>hugo --version</code>，並且有出現版本訊息，代表安裝成功。</p>
-<h3 id="linux">Linux</h3>
-<p>根據你的發行版而定，本篇以Ubuntu作為教學。</p>
-<p><strong>Step 1.</strong> 請輸入 <code>sudo apt update &amp;&amp; sudo apt install hugo</code>(此時的 <code>hugo</code>要因你的套件名而定)</p>
-<p><strong>Step 2.</strong> 請輸入 <code>hugo --version</code>，並且有出現版本訊息，代表安裝成功。</p>
-<h3 id="macos">MacOS</h3>
-<p><strong>Step 1.</strong> 請打開你的終端機</p>
-<p><strong>Step 2.</strong> 請輸入 <code>brew install hugo</code></p>
-<p><strong>Step 3.</strong> 請輸入 <code>hugo --version</code>，並且有出現版本訊息，代表安裝成功。</p>
-<h2 id="建立-github-page-repository">建立 Github Page Repository</h2>
-<p><strong>Step 1.</strong> 首先到你的 Github 主頁，並且在右上角找到「+」，點選「New Repository」</p>
-<p><img src="/p/hugoinstallation/2022-10-01_21-25.png"
-	width="245"
-	height="223"
-	srcset="/p/hugoinstallation/2022-10-01_21-25_hud39f4161933ed8022ff225ee2d653086_9880_480x0_resize_box_3.png 480w, /p/hugoinstallation/2022-10-01_21-25_hud39f4161933ed8022ff225ee2d653086_9880_1024x0_resize_box_3.png 1024w"
+<p>相信大家都希望在使用 Hugo 的時候都非常痛恨沒有留言區吧，作為一個正在學習的學生，免不了跟大家作技術交流，此時沒有留言版，會顯得非常怪和痛苦。</p>
+<h2 id="註冊-disqus-帳號">註冊 Disqus 帳號</h2>
+<p>首先到 <a class="link" href="https://disqus.com/profile/signup/intent/"  target="_blank" rel="noopener"
+    >Disqus 網站</a> 註冊一個帳號，先點擊底下的&quot;I want to install Disqus on my site&quot;。</p>
+<p><img src="/p/disqusinstallation/2022-10-02_13-23.png"
+	width="443"
+	height="633"
+	srcset="/p/disqusinstallation/2022-10-02_13-23_hu3222ac4b3ae2a21e595bf7567ac4db2a_71986_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-23_hu3222ac4b3ae2a21e595bf7567ac4db2a_71986_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
-		alt="圖一　建立Repository"
+		alt="圖一　建立 Disqus 帳號"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="109"
-		data-flex-basis="263px"
+		data-flex-grow="69"
+		data-flex-basis="167px"
 	
 ></p>
-<p><strong>Step 2.</strong> Repository Name 填寫「使用者名稱.github.io」</p>
-<p><img src="/p/hugoinstallation/2022-10-01_21-28.png"
-	width="635"
-	height="298"
-	srcset="/p/hugoinstallation/2022-10-01_21-28_hudb90f5a52d050ca47348416f9d4e5217_28738_480x0_resize_box_3.png 480w, /p/hugoinstallation/2022-10-01_21-28_hudb90f5a52d050ca47348416f9d4e5217_28738_1024x0_resize_box_3.png 1024w"
+<p>然後填入 &ldquo;Website Name&rdquo;，此時要記住這個Name，會對應到後面的 Short Name。Category隨意選。</p>
+<p><img src="/p/disqusinstallation/2022-10-02_13-24.png"
+	width="703"
+	height="670"
+	srcset="/p/disqusinstallation/2022-10-02_13-24_hu988460e46324a9d33f67425645d42321_32430_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-24_hu988460e46324a9d33f67425645d42321_32430_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
-		alt="圖二　填寫Repositry 資訊"
+		alt="圖二　輸入Short Name"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="213"
-		data-flex-basis="511px"
+		data-flex-grow="104"
+		data-flex-basis="251px"
 	
 ></p>
-<h2 id="匯入主題">匯入主題</h2>
-<p><strong>Step 1.</strong> 先進入此<a class="link" href="https://themes.gohugo.io/"  target="_blank" rel="noopener"
-    >網頁</a>，並選擇你喜歡的主題，按下Download進行下載。</p>
-<p><strong>Step 2.</strong> 將下載好的(以hugo-theme-stack.rar為例)壓縮檔解壓下來，將 exampleSite 移動至桌面。</p>
-<p><strong>Step 3.</strong> 在 exampleSite 建立一個資料夾為「themes」，並且將剛解壓好的檔案全部丟入裡面。</p>
-<h2 id="開始設定">開始設定</h2>
-<p><strong>Step 1.</strong> 打開你的終端機，進去 exampleSite。</p>
-<p><strong>Step 2.</strong> 輸入 <code>hugo server</code>，此時會建立一個內網網站，將網址放入網頁瀏覽器中，即可以看到畫面。</p>
-<p><img src="/p/hugoinstallation/2022-10-01_21-35.png"
-	width="1331"
-	height="523"
-	srcset="/p/hugoinstallation/2022-10-01_21-35_hu4325e2d66efe065be0f7ce80eafc9d5f_465594_480x0_resize_box_3.png 480w, /p/hugoinstallation/2022-10-01_21-35_hu4325e2d66efe065be0f7ce80eafc9d5f_465594_1024x0_resize_box_3.png 1024w"
+<p>接著點選最基本免費功能即可，一路下去跳到第三步驟。</p>
+<p><img src="/p/disqusinstallation/2022-10-02_13-34.png"
+	width="376"
+	height="294"
+	srcset="/p/disqusinstallation/2022-10-02_13-34_hu6561ea607c03b6e84f07c8d8ef36437a_11527_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-34_hu6561ea607c03b6e84f07c8d8ef36437a_11527_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
-		alt="圖三　執行 hugo 終端機畫面"
+		alt="圖三　點選基本免費功能"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="254"
-		data-flex-basis="610px"
+		data-flex-grow="127"
+		data-flex-basis="306px"
 	
 ></p>
-<p><strong>Step 3.</strong> 通過 vscode或是其他檔案編輯器編輯<code>config.ymal</code>。</p>
-<h2 id="回推上傳至-github">回推上傳至 Github</h2>
-<p><strong>Step 1.</strong> 編輯好後，在終端機輸入 <code>hugo</code>，此時會建立所需要的檔案至 <code>public/</code>。</p>
-<p><strong>Step 2.</strong> 將剛剛建立好的 Repository Clone下來: <code>git clone https://github.com/使用者名稱/使用者名稱.github.io</code>，此時 git 會建立一個資料夾。</p>
-<p><strong>Step 3.</strong> 將 <code>public/</code>裡面所有資料夾和檔案複製到 Clone下來的 <code>使用者名稱.github.io</code>資料夾。</p>
-<p><strong>Step 4.</strong> 輸入 <code>git add . &amp;&amp; git commit -m &quot;第一次上傳&quot; &amp;&amp; git push</code></p>
-<h2 id="網頁上線">網頁上線</h2>
-<p>此時 Github Action會自動啟動，將你的Github Page 自動上線，網址會是: <code>https://使用者名稱.github.io</code></p>
-<p><img src="/p/hugoinstallation/2022-10-01_21-41.png"
-	width="1896"
-	height="937"
-	srcset="/p/hugoinstallation/2022-10-01_21-41_huea9b933b7dbdb9f3c726fd2a6b0a100d_108261_480x0_resize_box_3.png 480w, /p/hugoinstallation/2022-10-01_21-41_huea9b933b7dbdb9f3c726fd2a6b0a100d_108261_1024x0_resize_box_3.png 1024w"
+<p>到了第三個步驟，請確認你的 Website Name 是否是 Short Name，這個在等等的 config.yaml設定檔案會用到。</p>
+<p><img src="/p/disqusinstallation/2022-10-02_13-38.png"
+	width="1904"
+	height="923"
+	srcset="/p/disqusinstallation/2022-10-02_13-38_hubcc41ba9c8d7d43d6c570bae8968925f_69983_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-38_hubcc41ba9c8d7d43d6c570bae8968925f_69983_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
-		alt="圖四　Github Repository畫面"
+		alt="圖四　確認Short Name"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="202"
-		data-flex-basis="485px"
+		data-flex-grow="206"
+		data-flex-basis="495px"
 	
 ></p>
-<p><img src="/p/hugoinstallation/2022-10-01_21-42.png"
-	width="1559"
+<h2 id="設定-config-檔">設定 config 檔</h2>
+<h3 id="直接設定-hugo-configyaml">直接設定 Hugo config.yaml</h3>
+<p>在你的 <code>config.yaml</code> 中的 <code>disqusShortname</code> 輸入你的shortName。</p>
+<p><img src="/p/disqusinstallation/2022-10-02_13-39.png"
+	width="472"
+	height="64"
+	srcset="/p/disqusinstallation/2022-10-02_13-39_hu8b5e03c62b24134157f4c40eb4c641ed_7971_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-39_hu8b5e03c62b24134157f4c40eb4c641ed_7971_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="圖五　設定 ShortName"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="737"
+		data-flex-basis="1770px"
+	
+></p>
+<p>在你的 <code>config.yaml</code> 中的 <code>disqusjs: shortname: </code> 中，將你的 ShortName 填入。</p>
+<p><img src="/p/disqusinstallation/2022-10-02_13-42.png"
+	width="359"
+	height="218"
+	srcset="/p/disqusinstallation/2022-10-02_13-42_hu0694d2381ced15a781bcf3a850ef9b34_12297_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-42_hu0694d2381ced15a781bcf3a850ef9b34_12297_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="圖六　將你的shortname設定至JS"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="164"
+		data-flex-basis="395px"
+	
+></p>
+<h3 id="非hugo將-disqus-程式碼嵌入javascript">(非Hugo)將 Disqus 程式碼嵌入Javascript</h3>
+<p>將第二步的程式碼貼入到你的網站，即可。請注意！紅色方框框起來的是你的ShortName，必須更改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Html" data-lang="Html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;disqus_thread&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+</span></span></span><span class="line"><span class="cl"><span class="cm">    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/*
+</span></span></span><span class="line"><span class="cl"><span class="cm">    var disqus_config = function () {
+</span></span></span><span class="line"><span class="cl"><span class="cm">    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page&#39;s canonical URL variable
+</span></span></span><span class="line"><span class="cl"><span class="cm">    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
+</span></span></span><span class="line"><span class="cl"><span class="cm">    };
+</span></span></span><span class="line"><span class="cl"><span class="cm">    */</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="c1">// DON&#39;T EDIT BELOW THIS LINE
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="nb">document</span><span class="p">,</span> <span class="nx">s</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;script&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">s</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="s1">&#39;https://你的ShortName.disqus.com/embed.js&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">s</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="s1">&#39;data-timestamp&#39;</span><span class="p">,</span> <span class="o">+</span><span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">head</span> <span class="o">||</span> <span class="nx">d</span><span class="p">.</span><span class="nx">body</span><span class="p">).</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">})();</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">noscript</span><span class="p">&gt;</span>Please enable JavaScript to view the <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://disqus.com/?ref_noscript&#34;</span><span class="p">&gt;</span>comments powered by Disqus.<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">noscript</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/disqusinstallation/2022-10-02_13-48.png"
+	width="1188"
+	height="562"
+	srcset="/p/disqusinstallation/2022-10-02_13-48_hu2c8ddf3ddf180c5d186ab4f1823c6841_56765_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-48_hu2c8ddf3ddf180c5d186ab4f1823c6841_56765_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="圖七　Javascript 程式碼"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="211"
+		data-flex-basis="507px"
+	
+></p>
+<h2 id="將留言區更改為正體中文">將留言區更改為正體中文</h2>
+<p>進入到<a class="link" href="https://disqus.com/"  target="_blank" rel="noopener"
+    >後台</a>，右上角的Admin，找到<code>General</code>，找到Language，並更改為Chinese(Taiwan)，即有中文出現。</p>
+<p><img src="/p/disqusinstallation/2022-10-02_13-44.png"
+	width="1916"
 	height="930"
-	srcset="/p/hugoinstallation/2022-10-01_21-42_huc0ce988b50cbbecef0530f7d730d5873_99814_480x0_resize_box_3.png 480w, /p/hugoinstallation/2022-10-01_21-42_huc0ce988b50cbbecef0530f7d730d5873_99814_1024x0_resize_box_3.png 1024w"
+	srcset="/p/disqusinstallation/2022-10-02_13-44_hue7dc541b61c337a6432cfa08e903e69f_112554_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-44_hue7dc541b61c337a6432cfa08e903e69f_112554_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
-		alt="圖五　網站上線畫面"
+		alt="圖八　將語言更改至正體中文"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="167"
-		data-flex-basis="402px"
+		data-flex-grow="206"
+		data-flex-basis="494px"
 	
 ></p>
-<h2 id="綁定網域">綁定網域</h2>
-<h3 id="網域設定">網域設定</h3>
-<p>在你的網域提供商，建立一個CNAME紀錄，指向<code>使用者名稱.github.io</code></p>
-<p><img src="/p/hugoinstallation/2022-10-01_21-45.png"
-	width="1035"
-	height="873"
-	srcset="/p/hugoinstallation/2022-10-01_21-45_hu149b8924ff757266b107b99d3827e2ca_91281_480x0_resize_box_3.png 480w, /p/hugoinstallation/2022-10-01_21-45_hu149b8924ff757266b107b99d3827e2ca_91281_1024x0_resize_box_3.png 1024w"
+<h2 id="成果">成果</h2>
+<p>此時會在你的網站或是部落格底下出現你的留言區，如果出現留言區代表你設定成功，現在的 Disqus 仍然是中英文夾雜的，有待官方翻譯完成。</p>
+<p><img src="/p/disqusinstallation/2022-10-02_13-50.png"
+	width="919"
+	height="559"
+	srcset="/p/disqusinstallation/2022-10-02_13-50_hu3d64a28ab4402c9c7ee2762bf007e895_40352_480x0_resize_box_3.png 480w, /p/disqusinstallation/2022-10-02_13-50_hu3d64a28ab4402c9c7ee2762bf007e895_40352_1024x0_resize_box_3.png 1024w"
 	loading="lazy"
 	
-		alt="圖六　DNS紀錄設定"
+		alt="圖九　留言區成果"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="118"
-		data-flex-basis="284px"
-	
-></p>
-<p>以CloudFlare為例，將類型設定為 CNAME，名稱為你需要的網域子域名，目標為Github Page 網址，開不開Proxy其實沒差，IP是Github，不會被駭客發現其他IP。</p>
-<h3 id="設定-github-page-domain">設定 Github Page Domain</h3>
-<p>在 Github Repo 建立一個新的檔案叫做<code>CNAME</code>，並將你的網域放入裡面</p>
-<p><img src="/p/hugoinstallation/2022-10-01_21-48.png"
-	width="1226"
-	height="344"
-	srcset="/p/hugoinstallation/2022-10-01_21-48_hu1b119311e454c7f35a3e1e530ddd3d83_24434_480x0_resize_box_3.png 480w, /p/hugoinstallation/2022-10-01_21-48_hu1b119311e454c7f35a3e1e530ddd3d83_24434_1024x0_resize_box_3.png 1024w"
-	loading="lazy"
-	
-		alt="圖七　Github Page網域設定"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="356"
-		data-flex-basis="855px"
+		data-flex-grow="164"
+		data-flex-basis="394px"
 	
 ></p>
 <h2 id="結尾">結尾</h2>
-<p>希望大家看到這裡，透過手把手一步步教學，可以建立出一個 Hugo 靜態網頁。通過 Github Page，可以建立一個個人網頁或是部落格，Github Page的應用很廣，今天我只在 Hugo 講解。因為我也想要來寫寫看部落格，就順手搭建了 Hugo，建立Hugo網頁並沒有想像中的這麼難，反而五分鐘以內就可以搭建完成，剩下的都只是設定和文章內容撰寫而已。如果有任何問題可以來信問我，或是通過我的通訊軟體聯絡我，也可以在下方留言詢問喔，前提是我要看到。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>Disqus 在各大網站上都會看到，是一個很好用的聊天室工具，其提供了強大的功能，可以讓使用者在裡面交流、發問。
+在靜態網頁中加入留言區是個不錯的選擇，對於讀者有問題發問時，就會有留言區可以發問。
+如果有任何問題也可以在底下發問喔，如果我有看到的話，或是通過我的聯絡方式聯絡我也是可以，我的聯絡方式都會在我的網站上。希望這篇教學會幫助大家。</p>
 
 </section>
 
@@ -527,12 +577,12 @@
             
                 
 <article class="">
-    <a href="/p/disqusinstallation/">
+    <a href="/p/hugoinstallation/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Disqus &#43; Hugo 讓你的網頁/部落格加上留言板功能</h2>
+            <h2 class="article-title">五分鐘 Hugo &#43; Github 製作部落格靜態網頁教學</h2>
         </div>
     </a>
 </article>
@@ -707,24 +757,15 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#前言">前言</a></li>
-    <li><a href="#安裝">安裝</a>
+    <li><a href="#註冊-disqus-帳號">註冊 Disqus 帳號</a></li>
+    <li><a href="#設定-config-檔">設定 config 檔</a>
       <ol>
-        <li><a href="#windows">Windows</a></li>
-        <li><a href="#linux">Linux</a></li>
-        <li><a href="#macos">MacOS</a></li>
+        <li><a href="#直接設定-hugo-configyaml">直接設定 Hugo config.yaml</a></li>
+        <li><a href="#非hugo將-disqus-程式碼嵌入javascript">(非Hugo)將 Disqus 程式碼嵌入Javascript</a></li>
       </ol>
     </li>
-    <li><a href="#建立-github-page-repository">建立 Github Page Repository</a></li>
-    <li><a href="#匯入主題">匯入主題</a></li>
-    <li><a href="#開始設定">開始設定</a></li>
-    <li><a href="#回推上傳至-github">回推上傳至 Github</a></li>
-    <li><a href="#網頁上線">網頁上線</a></li>
-    <li><a href="#綁定網域">綁定網域</a>
-      <ol>
-        <li><a href="#網域設定">網域設定</a></li>
-        <li><a href="#設定-github-page-domain">設定 Github Page Domain</a></li>
-      </ol>
-    </li>
+    <li><a href="#將留言區更改為正體中文">將留言區更改為正體中文</a></li>
+    <li><a href="#成果">成果</a></li>
     <li><a href="#結尾">結尾</a></li>
   </ol>
 </nav>

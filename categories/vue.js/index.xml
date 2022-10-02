@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>javascript on 夏特稀部落格</title>
-        <link>https://blog.tershi.com/categories/javascript/</link>
-        <description>Recent content in javascript on 夏特稀部落格</description>
+        <title>Vue.JS on 夏特稀部落格</title>
+        <link>https://blog.tershi.com/categories/vue.js/</link>
+        <description>Recent content in Vue.JS on 夏特稀部落格</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
-        <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/categories/vue.js/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Vue.JS 學習筆記一</title>
         <link>https://blog.tershi.com/p/vue.jslearn1/</link>
         <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
