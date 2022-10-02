@@ -14,6 +14,22 @@
         <guid>https://blog.tershi.com/categories/github/</guid>
         <description></description>
         </item>
+        <item>
+        <title>javascript</title>
+        <link>https://blog.tershi.com/categories/javascript/</link>
+        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/javascript/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>vue</title>
+        <link>https://blog.tershi.com/categories/vue/</link>
+        <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/vue/</guid>
+        <description></description>
+        </item>
         
     </channel>
 </rss>

@@ -34,10 +34,19 @@
     <loc>https://blog.tershi.com/categories/github/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.tershi.com/categories/javascript/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.tershi.com/page/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.tershi.com/post/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/categories/vue/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tershi.com/p/thefirstpost/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.tershi.com/p/hugoinstallation/</loc>
@@ -56,6 +65,8 @@
   </url><url>
     <loc>https://blog.tershi.com/categories/test/java/</loc>
   </url><url>
+    <loc>https://blog.tershi.com/categories/test/javascript/</loc>
+  </url><url>
     <loc>https://blog.tershi.com/categories/test/python/</loc>
   </url><url>
     <loc>https://blog.tershi.com/tags/</loc>
@@ -69,6 +80,8 @@
                 hreflang="zh-tw"
                 href="https://blog.tershi.com/tags/"
                 />
+  </url><url>
+    <loc>https://blog.tershi.com/categories/test/vue/</loc>
   </url><url>
     <loc>https://blog.tershi.com/%E9%80%A3%E7%B5%90/</loc>
   </url><url>
