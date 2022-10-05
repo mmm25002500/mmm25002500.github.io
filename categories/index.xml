@@ -6,53 +6,53 @@
         <description>Recent content in Categories on 夏特稀部落格</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
-        <lastBuildDate>Tue, 04 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Github</title>
-        <link>https://blog.tershi.com/categories/test/github/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Easy</title>
+        <link>https://blog.tershi.com/categories/easy/</link>
+        <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.tershi.com/categories/test/github/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Github" /&gt;</description>
-        </item>
-        <item>
-        <title>Java</title>
-        <link>https://blog.tershi.com/categories/test/java/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/categories/test/java/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Java" /&gt;</description>
-        </item>
-        <item>
-        <title>JavaScript</title>
-        <link>https://blog.tershi.com/categories/test/javascript/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.tershi.com/categories/test/javascript/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post JavaScript" /&gt;</description>
+        <guid>https://blog.tershi.com/categories/easy/</guid>
+        <description></description>
         </item>
         <item>
         <title>Leetcode</title>
-        <link>https://blog.tershi.com/categories/test/leetcode/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://blog.tershi.com/categories/leetcode/</link>
+        <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.tershi.com/categories/test/leetcode/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Leetcode" /&gt;</description>
+        <guid>https://blog.tershi.com/categories/leetcode/</guid>
+        <description></description>
         </item>
         <item>
-        <title>Python</title>
-        <link>https://blog.tershi.com/categories/test/python/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <title>Hard</title>
+        <link>https://blog.tershi.com/categories/hard/</link>
+        <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.tershi.com/categories/test/python/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Python" /&gt;</description>
+        <guid>https://blog.tershi.com/categories/hard/</guid>
+        <description></description>
         </item>
         <item>
-        <title>Vue.js</title>
-        <link>https://blog.tershi.com/categories/test/vue.js/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <title>Github</title>
+        <link>https://blog.tershi.com/categories/github/</link>
+        <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.tershi.com/categories/test/vue.js/</guid>
-        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Vue.js" /&gt;</description>
+        <guid>https://blog.tershi.com/categories/github/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>javascript</title>
+        <link>https://blog.tershi.com/categories/javascript/</link>
+        <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/javascript/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Vue.JS</title>
+        <link>https://blog.tershi.com/categories/vue.js/</link>
+        <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/vue.js/</guid>
+        <description></description>
         </item>
         
     </channel>

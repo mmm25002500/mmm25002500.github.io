@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-tw" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='4. Median of Two Sorted Arrays'><title>4. 尋找兩個已排序陣列的中間值</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='1480. Running Sum of 1d Array'><title>1480. 一維陣列累積和</title>
 
-<link rel='canonical' href='https://blog.tershi.com/p/median-of-two-sorted-arrays/'>
+<link rel='canonical' href='https://blog.tershi.com/p/running-sum-of-1d-array/'>
 
-<link rel="stylesheet" href="/scss/style.min.ac77dcf8b111b51da39a92990f431923f210f3876d85798a2125667f96dc33a4.css"><meta property='og:title' content='4. 尋找兩個已排序陣列的中間值'>
-<meta property='og:description' content='4. Median of Two Sorted Arrays'>
-<meta property='og:url' content='https://blog.tershi.com/p/median-of-two-sorted-arrays/'>
+<link rel="stylesheet" href="/scss/style.min.ac77dcf8b111b51da39a92990f431923f210f3876d85798a2125667f96dc33a4.css"><meta property='og:title' content='1480. 一維陣列累積和'>
+<meta property='og:description' content='1480. Running Sum of 1d Array'>
+<meta property='og:url' content='https://blog.tershi.com/p/running-sum-of-1d-array/'>
 <meta property='og:site_name' content='夏特稀部落格'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-10-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-10-04T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="4. 尋找兩個已排序陣列的中間值">
-<meta name="twitter:description" content="4. Median of Two Sorted Arrays">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-10-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-10-05T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="1480. 一維陣列累積和">
+<meta name="twitter:description" content="1480. Running Sum of 1d Array">
     <link rel="shortcut icon" href="https://tershi.com/favicon.ico" />
 
     </head>
@@ -291,8 +291,8 @@
                 Leetcode
             </a>
         
-            <a href="/categories/hard/" >
-                Hard
+            <a href="/categories/easy/" >
+                Easy
             </a>
         
     </header>
@@ -300,12 +300,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/median-of-two-sorted-arrays/">4. 尋找兩個已排序陣列的中間值</a>
+            <a href="/p/running-sum-of-1d-array/">1480. 一維陣列累積和</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            4. Median of Two Sorted Arrays
+            1480. Running Sum of 1d Array
         </h3>
         
     </div>
@@ -323,7 +323,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Oct 04, 2022</time>
+                <time class="article-time--published">Oct 05, 2022</time>
             </div>
         
 
@@ -338,7 +338,7 @@
 
 
                 <time class="article-time--reading">
-                    閱讀時間: 2 分鐘
+                    閱讀時間: 1 分鐘
                 </time>
             </div>
         
@@ -366,12 +366,12 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-diff" data-lang="diff"><span class="line"><span class="cl"><span class="gi">+ 英文:
-</span></span></span><span class="line"><span class="cl"><span class="gi"></span><span class="gd">- Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
-</span></span></span><span class="line"><span class="cl"><span class="gd">- The overall run time complexity should be O(log (m+n)).
+</span></span></span><span class="line"><span class="cl"><span class="gi"></span><span class="gd">- Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+</span></span></span><span class="line"><span class="cl"><span class="gd">- Return the running sum of nums.
 </span></span></span><span class="line"><span class="cl"><span class="gd"></span>
 </span></span><span class="line"><span class="cl"><span class="gi">+ 中文:
-</span></span></span><span class="line"><span class="cl"><span class="gi"></span><span class="gd">- 給定兩個已排序過的陣列 num1 和 num2，大小分別為 m 和 n，回傳兩個已排序陣列的中間值。
-</span></span></span><span class="line"><span class="cl"><span class="gd">- 總執行時間複雜度為 O(log (m+n))。
+</span></span></span><span class="line"><span class="cl"><span class="gi"></span><span class="gd">- 給定一個陣列，陣列「累積和」的計算公式為「runningSum[i] = sum(nums[0]…nums[i]) 」。
+</span></span></span><span class="line"><span class="cl"><span class="gd">- 請回傳 nums 的 累積和。
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="測資一">測資一</h3>
@@ -382,9 +382,9 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-diff" data-lang="diff"><span class="line"><span class="cl"><span class="gi">+ 輸入: nums1 = [1,3], nums2 = [2]
-</span></span></span><span class="line"><span class="cl"><span class="gi">+ 輸出: 2.00000
-</span></span></span><span class="line"><span class="cl"><span class="gi"></span><span class="gd">- 解釋: 合併後陣列 = [1,2,3] 中間值為 2.
+<pre tabindex="0" class="chroma"><code class="language-diff" data-lang="diff"><span class="line"><span class="cl"><span class="gi">+ 輸入: nums = [1,2,3,4]
+</span></span></span><span class="line"><span class="cl"><span class="gi">+ 輸出: [1,3,6,10]
+</span></span></span><span class="line"><span class="cl"><span class="gi"></span><span class="gd">- 解釋: 累積和計算過程為 [1, 1+2, 1+2+3, 1+2+3+4] 。
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="測資二">測資二</h3>
@@ -395,18 +395,17 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-diff" data-lang="diff"><span class="line"><span class="cl"><span class="gi">+ 輸入: nums1 = [1,2], nums2 = [3,4]
-</span></span></span><span class="line"><span class="cl"><span class="gi">+ 輸出: 2.50000
-</span></span></span><span class="line"><span class="cl"><span class="gi"></span><span class="gd">- 解釋: 合併後陣列 = [1,2,3,4] 中間值為 (2 + 3) / 2 = 2.5.
+<pre tabindex="0" class="chroma"><code class="language-diff" data-lang="diff"><span class="line"><span class="cl"><span class="gi">+ 輸入: nums = [1,1,1,1,1]
+</span></span></span><span class="line"><span class="cl"><span class="gi">+ 輸出: [1,2,3,4,5]
+</span></span></span><span class="line"><span class="cl"><span class="gi"></span><span class="gd">- 解釋: 累積和計算過程為 [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1] 。
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="解題思路">解題思路</h2>
-<p>在這題當中，num1 及 num2 皆為陣列，需要把這兩個東西合再一起，以測資一來說，nums1 + nums2 就會是 [1, 3, 2]，接下來因為要取中間值所以需要排序，排序過後會是[1, 2, 3]，中間值即為2。</p>
-<p>再以測資二為例，nums1 + nums2 就會是 [1, 2, 3, 4]，排序過後仍然一樣，中間值則為(2+3)/2=2.5，答案即為2.5</p>
+<p>再這題當中，i項為i-1項+原i項之和，可以用迴圈去跑，要注意的是 i 為 0 時不需要加，也就是第一項不用加前項，否則會出現索引值找不到的錯誤。</p>
 <h3 id="java-思路">Java 思路</h3>
-<p>因為函數傳進了兩個陣列，因此在宣告一個整數陣列，將兩個陣列放置在一起，接下來再使用sort()方法將陣列排序即可開始寫if-else取值。</p>
+<p>使用 nums.length取得陣列長度，然後開始慢慢加即可。</p>
 <h3 id="python-思路">Python 思路</h3>
-<p>跟Java解題思路是一樣的，先宣告一個陣列 lst，將num1 及 num2 放入 lst，再開始if-else解即可。</p>
+<p>跟Java解題思路是一樣的。</p>
 <h2 id="答案">答案</h2>
 <p>此題答案以 Python 解！</p>
 <div class="highlight"><div class="chroma">
@@ -431,50 +430,28 @@
 </span><span class="lnt">18
 </span><span class="lnt">19
 </span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">findMedianSortedArrays</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums1</span><span class="p">,</span> <span class="n">nums2</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">runningSum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">        <span class="s2">&#34;&#34;&#34;
-</span></span></span><span class="line"><span class="cl"><span class="s2">        :type nums1: List[int]
-</span></span></span><span class="line"><span class="cl"><span class="s2">        :type nums2: List[int]
-</span></span></span><span class="line"><span class="cl"><span class="s2">        :rtype: float
+</span></span></span><span class="line"><span class="cl"><span class="s2">        :type nums: List[int]
+</span></span></span><span class="line"><span class="cl"><span class="s2">        :rtype: List[int]
 </span></span></span><span class="line"><span class="cl"><span class="s2">        &#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># 先宣告一個lst 將 num1 放入</span>
-</span></span><span class="line"><span class="cl">        <span class="n">lst</span> <span class="o">=</span> <span class="n">nums1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="c1"># 將 num2 每筆資料都放入 i 遍歷跑</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">nums2</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="c1"># 將 nums2 放入 lst，即達成 lst = num1 + num2</span>
-</span></span><span class="line"><span class="cl">            <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="c1"># 將 lst 進行排序</span>
-</span></span><span class="line"><span class="cl">        <span class="n">lst</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="c1"># 宣告答案值為0</span>
-</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span>
 </span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="c1"># 如果 lst的數量為偶數</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="c1"># 則取 中間兩位之平均值，回寫入ans</span>
-</span></span><span class="line"><span class="cl">            <span class="n">ans</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">lst</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">lst</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">])</span><span class="o">/</span><span class="mi">2</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="c1"># 否則取中間值</span>
-</span></span><span class="line"><span class="cl">            <span class="n">ans</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="c1"># 回傳答案</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ans</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># 先宣告一個空串列</span>
+</span></span><span class="line"><span class="cl">        <span class="n">lst</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1"># i 從 0 跑至 nums的長度</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">            <span class="c1"># 第一項</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">#第二項開始</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">                
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">lst</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><!-- raw HTML omitted -->
@@ -515,12 +492,12 @@
             
                 
 <article class="">
-    <a href="/p/running-sum-of-1d-array/">
+    <a href="/p/largest-number-at-least-twice-of-others/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">1480. 一維陣列累積和</h2>
+            <h2 class="article-title">747. 至少是其他數字兩倍的最大數</h2>
         </div>
     </a>
 </article>
@@ -528,12 +505,12 @@
             
                 
 <article class="">
-    <a href="/p/largest-number-at-least-twice-of-others/">
+    <a href="/p/median-of-two-sorted-arrays/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">747. 至少是其他數字兩倍的最大數</h2>
+            <h2 class="article-title">4. 尋找兩個已排序陣列的中間值</h2>
         </div>
     </a>
 </article>
