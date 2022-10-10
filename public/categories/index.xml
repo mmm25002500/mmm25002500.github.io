@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on 夏特稀部落格</title>
+        <link>https://blog.tershi.com/categories/</link>
+        <description>Recent content in Categories on 夏特稀部落格</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tershi.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Github</title>
+        <link>https://blog.tershi.com/categories/test/github/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/github/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Github" /&gt;</description>
+        </item>
+        <item>
+        <title>Java</title>
+        <link>https://blog.tershi.com/categories/test/java/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/java/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Java" /&gt;</description>
+        </item>
+        <item>
+        <title>JavaScript</title>
+        <link>https://blog.tershi.com/categories/test/javascript/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/javascript/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post JavaScript" /&gt;</description>
+        </item>
+        <item>
+        <title>Leetcode</title>
+        <link>https://blog.tershi.com/categories/test/leetcode/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/leetcode/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Leetcode" /&gt;</description>
+        </item>
+        <item>
+        <title>Python</title>
+        <link>https://blog.tershi.com/categories/test/python/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/python/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Python" /&gt;</description>
+        </item>
+        <item>
+        <title>Vue.js</title>
+        <link>https://blog.tershi.com/categories/test/vue.js/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/vue.js/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Vue.js" /&gt;</description>
+        </item>
+        <item>
+        <title>算法</title>
+        <link>https://blog.tershi.com/categories/test/%E7%AE%97%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/%E7%AE%97%E6%B3%95/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 算法" /&gt;</description>
+        </item>
+        <item>
+        <title>難度困難題</title>
+        <link>https://blog.tershi.com/categories/test/hard/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/hard/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 難度困難題" /&gt;</description>
+        </item>
+        <item>
+        <title>難度適中題</title>
+        <link>https://blog.tershi.com/categories/test/medium/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/medium/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 難度適中題" /&gt;</description>
+        </item>
+        <item>
+        <title>難度簡單題</title>
+        <link>https://blog.tershi.com/categories/test/easy/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.tershi.com/categories/test/easy/</guid>
+        <description>&lt;img src="https://blog.tershi.com/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 難度簡單題" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
